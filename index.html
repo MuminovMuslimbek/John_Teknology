@@ -4,39 +4,82 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Homework</title>
+    <title> John Teknology | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#home">Bosh sahifa</a></li>
-                    <li><a href="#about">Biz haqimizda</a></li>
-                    <li><a href="#services">Xizmatlar</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
+    <header class="header">
+        <div class="header__container">
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+
+                    <li class="sitenav__item"><a class="sitenav__link" href="#about">Works</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#home">Blog</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#services">Contact</a></li>
                 </ul>
             </nav>
         </div>
+        <div class="navigatia">
+            <div class="navigatia__container container">
+                <div class="navigatia-left">
+                    <h1>Hi, I am John, Creative Technologist</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button>Download Resume</button>
+                </div>
+                <img src="imges/avatar.png" alt="img">
+
+            </div>
+        </div>
     </header>
     <main>
-        <section>
-            <div class="container">
-
+        <section class="recent">
+            <div class="recent__container container">
+                <div class="recent__top">
+                    <h2>Recent posts</h2>
+                    <button>View all</button>
+                </div>
+                <div class="recent__bottom">
+                    <div class="recent__bottom-card">
+                        <h3>Making a design system from scratch</h3>
+                        <div class="recent__bottom-number">
+                            <p>12 Feb 2020</p>
+                            <p>Design, Pattern</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div class="recent__bottom-card">
+                        <h3>Making a design system from scratch</h3>
+                        <div class="recent__bottom-number">
+                            <p>12 Feb 2020</p>
+                            <p>Design, Pattern</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <div class="footer">
-        <nav>
-            <ul>
-                <li><a href="#home">Bosh sahifa</a></li>
-                <li><a href="#about">Biz haqimizda</a></li>
-                <li><a href="#services">Xizmatlar</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
+        <div class="footer__container container">
+            <nav class="footer__container">
+                <ul class="sitenav__link">
+                    <a href="#"><img src="./imges/icon/fb.svg" alt="img">
+                    </a>
+                    <a href="#"><img src="./imges/icon/insta.svg" alt="img">
+                    </a>
+                    <a href="#"><img src="./imges/icon/twitter.svg" alt="img">
+                    </a>
+                    <a href="#"><img src="./imges/icon/Linkedin.svg" alt="img">
+                    </a>
+                </ul>
+                <p> Copyright ©2020 All rights reserved </p>
+            </nav>
+        </div>
     </div>
 </body>
 
