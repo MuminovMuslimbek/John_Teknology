@@ -61,7 +61,6 @@ main {
 }
 
 .header__container {
-    max-width: 1111px;
     display: flex;
     justify-content: space-between;
     align-items: center;
