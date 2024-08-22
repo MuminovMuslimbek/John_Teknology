@@ -5,8 +5,8 @@
 }
 
 ::selection {
-    color: #FF6464;
-    background: #00A8CC;
+    color: #fff;
+    background: #142850;
 }
 
 html {
@@ -74,7 +74,7 @@ main {
 }
 
 .back__home {
-    width: 35px;
+    width: 50px;
     cursor: pointer;
 }
 
@@ -374,6 +374,7 @@ a:hover {
     }
 
     .featured__card {
+        max-width: 344px;
         display: flex;
         flex-direction: column;
         row-gap: 17px;

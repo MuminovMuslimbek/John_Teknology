@@ -5,8 +5,8 @@
 }
 
 ::selection {
-    color: #FF6464;
-    background: #00A8CC;
+    color: #fff;
+    background: #142850;
 }
 
 html {
@@ -80,7 +80,7 @@ main {
 }
 
 .back__home {
-    width: 35px;
+    width: 50px;
     cursor: pointer;
 }
 
@@ -109,11 +109,8 @@ main {
 
 .navigatia-left button {
     padding: 15px 20px;
-    background-color: #FF6464;
     max-width: 280px;
-    border: none;
-    border-radius: 2px;
-    transition: all 0.3s;
+    transition: all 1s;
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
@@ -137,17 +134,19 @@ main {
     }
 }
 
-.navigatia-left button:hover {
-    background-color: #21243D;
-}
-
 .navigatia-left button:active {
+    transition: 0.3s;
     transform: scale(0.9);
 }
 
 .navigatia__container img {
     max-width: 243px;
     height: 243px;
+}
+
+.navigatia__container img:hover {
+    transform: rotate(-10deg);
+    filter: grayscale(120%);
 }
 
 .footer__container {
@@ -500,6 +499,7 @@ a:hover {
     }
 
     .featured__card {
+        max-width: 344px;
         display: flex;
         flex-direction: column;
         row-gap: 17px;
