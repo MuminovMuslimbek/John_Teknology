@@ -401,16 +401,17 @@ a:hover {
         z-index: 1;
         top: 0;
         right: 0;
-        background-color: #111111ba;
         overflow-x: hidden;
         padding-top: 60px;
         transition: 0.3s;
+        background-color: #8695A4;
+        backdrop-filter: blur(5px) brightness(80%);
     }
 
     .sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        color: #8695A4;
+        color: #142850;
         display: block;
     }
 
