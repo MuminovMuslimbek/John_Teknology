@@ -13,12 +13,13 @@
     <header class="header">
         <div class="header__container">
             <nav class="sitenav">
-                <ul class="sitenav__list">
-
-                    <li class="sitenav__item"><a class="sitenav__link" href="#about">Works</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" href="#home">Blog</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" href="#services">Contact</a></li>
-                </ul>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Works</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+                <span class="menubar" onclick="openNav()">&#9776;</span>
             </nav>
         </div>
         <div class="navigatia">
@@ -52,13 +53,59 @@
                             consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="recent__bottom-card">
-                        <h3>Making a design system from scratch</h3>
+                        <h3>Creating pixel perfect icons in Figma</h3>
                         <div class="recent__bottom-number">
                             <p>12 Feb 2020</p>
-                            <p>Design, Pattern</p>
+                            <p>Figma, Icon Design</p>
                         </div>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured">
+            <div class="featured__container container">
+                <h2>Featured works</h2>
+                <div class="featured__bottom">
+                    <div class="featured__card">
+                        <img src="imges/featured_img_1.png" alt="img">
+
+                        <div class="featured__card-right">
+                            <h3>Designing Dashboards</h3>
+                            <div class="featured__card-num">
+                                <p>2020</p>
+                                <h6>Dashboard</h6>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                    <div class="featured__card">
+                        <img src="imges/featured_img_2.png" alt="img">
+
+                        <div class="featured__card-right">
+                            <h3>Vibrant Portraits of 2020</h3>
+                            <div class="featured__card-num">
+                                <p>2018</p>
+                                <h6>Illustration</h6>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                    <div class="featured__card">
+                        <img src="imges/featured_img_3.png" alt="img">
+
+                        <div class="featured__card-right">
+                            <h3>36 Days of Malayalam type</h3>
+                            <div class="featured__card-num">
+                                <p>2018</p>
+                                <h6>Typography</h6>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,6 +128,7 @@
             </nav>
         </div>
     </div>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
