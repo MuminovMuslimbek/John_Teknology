@@ -20,8 +20,8 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-size: 1.6rem;
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 15px;
 }
 
 ul,
@@ -52,8 +52,8 @@ img:hover {
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-left: 5rem;
-    padding: 5rem;
+    padding-left: 50px;
+    padding: 50px;
 }
 
 main {
@@ -70,14 +70,14 @@ main {
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-left: 5rem;
-    padding: 5rem;
+    padding-left: 50px;
+    padding: 50px;
 }
 
 .navigatia__container {
     display: flex;
     justify-content: space-between;
-    column-gap: 1.5rem;
+    column-gap: 15px;
 }
 
 .back__home {
@@ -113,11 +113,11 @@ main {
     background-color: #FF6464;
     max-width: 280px;
     border: none;
-    border-radius: 0.2rem;
+    border-radius: 2px;
     transition: all 0.3s;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 2.9rem;
+    line-height: 29px;
     color: #fff;
     cursor: pointer;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
@@ -155,14 +155,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 2.6rem;
+    row-gap: 26px;
 }
 
 .footer__container p {
     max-width: 222px;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 20px;
     color: #21243D;
 }
 
@@ -197,7 +197,7 @@ a:hover {
 .recent {
     display: flex;
     flex-direction: column;
-    row-gap: 2.2rem;
+    row-gap: 22px;
     background-color: #EDF7FA;
 }
 
@@ -209,17 +209,17 @@ a:hover {
 
 .recent__top h2 {
     max-width: 129px;
-    font-size: 2.2rem;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 6rem;
+    line-height: 60px;
     color: #21243D;
 }
 
 .recent__top button {
     max-width: 208px;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.3rem;
+    line-height: 23px;
     color: #00A8CC;
     background: none;
     border: none;
@@ -235,62 +235,62 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 3rem;
+    column-gap: 30px;
 }
 
 .recent__bottom-card {
     max-width: 418px;
-    border-radius: 0.4rem;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 2.2rem;
+    padding: 25px 22px;
     background-color: #fff;
 }
 
 .recent__bottom-card h3 {
     max-width: 374px;
-    font-size: 2.6rem;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 3.8rem;
+    line-height: 38px;
     color: #21243D;
 }
 
 .recent__bottom-number {
     display: flex;
     align-items: center;
-    column-gap: 2.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    column-gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .recent__bottom-number p {
     display: flex;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 2.6rem;
+    line-height: 26px;
     color: #21243D;
 }
 
 .recent__bottom-number p:nth-child(2) {
     border-left: 1px solid #21243D;
-    padding-left: 2.5rem;
+    padding-left: 25px;
     height: 21px;
 }
 
 .recent__bottom-card p {
     max-width: 368px;
     font-family: "Heebo";
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 2.3rem;
+    line-height: 23px;
     color: #21243D;
 }
 
 .sitenav__link {
     display: flex;
     align-items: center;
-    column-gap: 3.5rem;
+    column-gap: 35px;
 }
 
 .sitenav__link a img:hover {
@@ -301,13 +301,13 @@ a:hover {
 .featured__container {
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 30px;
 }
 
 .featured__container h2 {
-    font-size: 2.2rem;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 6rem;
+    line-height: 60px;
     color: #21243D;
 }
 
@@ -318,10 +318,10 @@ a:hover {
 }
 
 .featured__card {
-    padding-bottom: 1.5rem;
+    padding-bottom: 15px;
     border-bottom: 1px solid #E0E0E0;
     display: flex;
-    gap: 1.8rem;
+    gap: 18px;
 }
 
 .featured__card img {
@@ -332,31 +332,31 @@ a:hover {
 .featured__card-right {
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 20px;
 }
 
 .featured__card-right h3 {
     max-width: 365px;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 4.4rem;
+    line-height: 44px;
     color: #21243D;
 }
 
 .featured__card-num {
     display: flex;
     align-items: center;
-    column-gap: 2.6rem;
+    column-gap: 26px;
 }
 
 .featured__card-num p {
     max-width: 62px;
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 900;
     color: #fff;
     background-color: #142850;
     padding: 3px 10px;
-    border-radius: 1.6rem;
+    border-radius: 16px;
     margin: 0;
 }
 
@@ -376,26 +376,26 @@ a:hover {
 
 @media screen and (max-width:794px) {
     .navigatia-left {
-        row-gap: 2rem;
+        row-gap: 20px;
     }
 
     .navigatia-left h1 {
-        font-size: 3.7rem;
+        font-size: 37px;
         line-height: 40px;
     }
 
     .recent__bottom-card h3 {
-        font-size: 2.1rem;
-        line-height: 3.3rem;
+        font-size: 21px;
+        line-height: 33px;
     }
 
     .recent__bottom-number {
         display: flex;
-        column-gap: 2.3rem;
+        column-gap: 23px;
     }
 
     .recent__bottom-number p {
-        font-size: 1.1rem;
+        font-size: 11px;
         line-height: 1.1;
     }
 
@@ -435,8 +435,8 @@ a:hover {
     }
 
     .featured__card-right h3 {
-        font-size: 2.5rem;
-        line-height: 3.3rem;
+        font-size: 25px;
+        line-height: 33px;
     }
 }
 
@@ -464,8 +464,8 @@ a:hover {
     }
 
     .navigatia-left h1 {
-        font-size: 3.2rem;
-        line-height: 4rem;
+        font-size: 32px;
+        line-height: 40;
     }
 
     .recent {
@@ -477,7 +477,7 @@ a:hover {
     .recent__top {
         display: flex;
         flex-direction: column;
-        margin-bottom: 2rem;
+        margin-bottom: 20px;
     }
 
     .recent__bottom {
@@ -487,16 +487,16 @@ a:hover {
     }
 
     .recent__bottom-card {
-        padding: 1.2rem 1.5rem;
+        padding: 12px 15px;
     }
 
     .recent__bottom-card h3 {
-        font-size: 2.2rem;
+        font-size: 22px;
     }
 
     .sitenav__link {
         display: flex;
-        column-gap: 2.5rem;
+        column-gap: 25px;
     }
 
     .featured__container {
