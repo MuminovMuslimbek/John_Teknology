@@ -463,11 +463,6 @@ a:hover {
         text-align: center;
     }
 
-    .navigatia-left h1 {
-        font-size: 32px;
-        line-height: 40;
-    }
-
     .recent {
         display: flex;
         flex-direction: column;
