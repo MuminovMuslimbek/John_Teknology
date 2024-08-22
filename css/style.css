@@ -114,6 +114,22 @@ main {
     line-height: 2.9rem;
     color: #fff;
     cursor: pointer;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: rainbow 10s infinite linear;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
 }
 
 .navigatia-left button:hover {
